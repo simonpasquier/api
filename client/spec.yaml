@@ -1013,7 +1013,7 @@ components:
         type: object
         required:
           - status
-          - streams 
+          - streams
         properties:
           error:
             type: string
@@ -1021,6 +1021,8 @@ components:
             type: string
           warnings:
             type: array
+            items:
+              type: string
           items:
             type: string
           status:
